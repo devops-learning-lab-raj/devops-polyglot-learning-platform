@@ -1,0 +1,6 @@
+services:
+  frontend: typescript
+  api: python
+  worker: java
+release:
+  strategy: promote-same-artifact
